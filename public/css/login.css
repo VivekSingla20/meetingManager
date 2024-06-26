@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: poppins;
+}
+body {
+  height: 100vh;
+  background: linear-gradient(-53deg, #f45c43, #411153);
+}
+nav {
+  /* background: linear-gradient(rgba(128,0,128,0.1), rgba(138, 43, 226,0.2)); */
+  background-color: #fff;
+  box-shadow: 5px 4px 4px 0px rgba(0, 0, 0, 25%);
+  height: 3.3rem;
+  width: 100%;
+}
+nav button {
+  background-color: #c73659;
+  font-size: 1rem;
+  text-align: center;
+  color: white;
+  border-radius: 1.5rem;
+  padding: 0.3rem 2rem 0.3rem 2rem;
+  /* border: 1px solid black; */
+  /* box-shadow: 3px 3px 3px gainsboro; */
+  margin: 0.6rem 2rem;
+}
+.container {
+  height: 60vh;
+  width: 60vw;
+  background-color: rgba(217, 217, 217, 0.2);
+  box-sizing: border-box;
+  box-shadow: 0.2rem 0.2rem 0.2rem 0.2rem rgba(0, 0, 0, 0.4);
+  color: white;
+  margin: auto;
+  margin-top: 18vh;
+  display: flex;
+}
+.content {
+  width: 50%;
+  /* margin: 2rem; */
+  text-align: center;
+}
+.content img {
+  margin-top: -0.4rem;
+}
+.content > p {
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+.text {
+  /* margin: -10px 30px 0 30px; */
+  margin: -0.6rem 2rem 0 4rem;
+}
+#super {
+  text-align: left;
+  font-size: 1.9rem;
+  color: #f67f7f;
+  /* color: black; */
+  font-weight: 500;
+}
+#sub {
+  text-align: left;
+}
+.content #ques {
+  color: #cacaca;
+  /* color: #a8a8a8; */
+}
+.login {
+  margin-top: 0;
+  border-left: 0.8px solid rgb(220, 220, 220, 0.3);
+  padding: 2rem 4rem;
+  text-align: center;
+}
+.logoClass {
+  width: 10rem;
+}
+.data p {
+  text-align: left;
+  margin-top: 1.1rem;
+}
+.data input {
+  width: 16rem;
+  background-color: rgba(217, 217, 217, 0.9);
+  outline: none;
+  border: none;
+  padding-left: 1rem;
+  line-height: 1.5rem;
+}
+.login h1 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.sign_up button {
+  background-color: rgba(217, 217, 217, 0.5);
+  font-size: 1rem;
+  border-radius: 1.5rem;
+  border: transparent;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  font-weight: 600;
+  margin-top: 0.1rem;
+}
+.register button {
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+  font-size: 1rem;
+  border-radius: 1.5rem;
+  border: transparent;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  font-weight: 450;
+  margin-top: 2rem;
+}
+.sign_up button:hover {
+  border: 1px solid black;
+}
+.sign_up button:active {
+  border: 2px solid black;
+  /* box-shadow: 3px 3px 3px grey; */
+}
+.register button:hover {
+  border: 1px solid white;
+}
+.register button:active {
+  border: 2px solid white;
+  /* box-shadow: 3px 3px 3px grey; */
+}
+nav button:hover {
+  border: 1px solid white;
+}
+nav button:active {
+  border: 2px solid white;
+}

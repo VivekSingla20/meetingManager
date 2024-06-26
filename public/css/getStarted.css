@@ -1,0 +1,68 @@
+* {
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+.navbar {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1.25rem;
+  height: 5vh;
+  z-index: 1;
+  box-shadow: 0px 0.05rem 0 0 #000;
+  /* filter: drop-shadow(0px 4px 4px #000); */
+}
+.backBtn {
+  margin-left: 2rem;
+  width: 5rem;
+  aspect-ratio: 84/30;
+  background-color: #c73659;
+  border-radius: 20px;
+  color: white;
+}
+.backgroundImg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../images/conference\ parallax\ 1.svg);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.text {
+  font-size: 2.25rem;
+  font-weight: 800;
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+.options {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: space-around;
+}
+.userOption,
+.organisationOption {
+  border-radius: 11px;
+  display: flex;
+  flex-direction: column;
+  width: 17.125rem;
+  aspect-ratio: 274/293;
+  background-color: rgba(238, 238, 238, 70%);
+  justify-content: center;
+  align-items: center;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+}
+.userOptionImg {
+  width: 11rem;
+  aspect-ratio: 175/183;
+}
+.organisationOptionImg {
+  width: 21rem;
+}
+.organisationOption {
+  padding-bottom: 2rem;
+}

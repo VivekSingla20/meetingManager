@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="../images/navbarLogo.png" />
+    <link rel="stylesheet" href="../css/login.css">
+  </head>
+  <body>
+    <nav>
+      <a href="http://localhost:8080/">
+        <button>Back</button>
+      </a>
+    </nav>
+    <div class="container">
+      <div class="content">
+        <img class="logoClass" src="../images/navbarLogo.png" alt="Vhost" />
+        <div class="text">
+          <p id="super">
+            The Best Platform<br />
+            for <br />
+            Conferences
+          </p>
+          <p id="sub">
+            This website is a platform for organizing and managing events. It
+            includes features like online registeration and communication tools.
+          </p>
+        </div>
+        <p id="ques">Do not have an account?</p>
+        <div class="sign_up">
+          <a href="http://localhost:8080/register">
+            <button>Sign Up</button>
+          </a>
+        </div>
+      </div>
+      <div class="login">
+        <h1>Login</h1>
+        <div class="data">
+          <p>E-mail</p>
+          <input type="email" id="emailId" />
+        </div>
+        <div class="data">
+          <p>Password</p>
+          <input type="password" id="password" />
+        </div>
+        <div class="register">
+          <button id="loginBtn" onclick="loginUser()">Login</button>
+        </div>
+      </div>
+    </div>
+    <script src="../javascript/login.js"></script>
+  </body>
+</html>
